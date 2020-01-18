@@ -71,7 +71,7 @@ def adding_matz
     }
   }
   
-  programmer_hash = :yukihiro_matsumoto.merge(programmer_hash)
+  programmer_hash = yukihiro_matsumoto.merge(programmer_hash)
 
 	programmer_hash = {
         :grace_hopper => {
