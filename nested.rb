@@ -70,8 +70,6 @@ def adding_matz
           :languages => ["LISP", "C"]
     }
   }
-  
-  programmer_hash = yukihiro_matsumoto.merge(programmer_hash)
 
 	programmer_hash = {
         :grace_hopper => {
@@ -87,6 +85,8 @@ def adding_matz
           :languages => ["C"]
         }
      }
+     
+     programmer_hash = yukihiro_matsumoto.merge(programmer_hash)
 end
 
 def changing_alan
