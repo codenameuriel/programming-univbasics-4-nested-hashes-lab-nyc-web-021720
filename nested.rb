@@ -65,10 +65,12 @@ def adding_matz
 #    :languages => ["LISP", "C"]
 # }
 
-  programmer_hash = [:yukihiro_matsumoto] = {
+  :yukihiro_matsumoto = {
           :known_for => "Ruby",
           :languages => ["LISP", "C"]
   }
+  
+  programmer_hash = :yukihiro_matsumoto.merge(programmer_hash)
 
 	programmer_hash = {
         :grace_hopper => {
