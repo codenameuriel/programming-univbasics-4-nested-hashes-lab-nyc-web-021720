@@ -87,7 +87,7 @@ def adding_matz
         }
      }
      
-     yukihiro_matsumoto.merge!(programmer_hash)
+     programmer_hash = yukihiro_matsumoto.merge(programmer_hash)
 end
 
 def changing_alan
